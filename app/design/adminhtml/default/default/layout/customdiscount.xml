@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<layout>
+    <customdiscount_adminhtml_index_index>
+        <reference name="content">
+            <block type="customdiscount/adminhtml_index" name="index" />
+        </reference>
+    </customdiscount_adminhtml_index_index>
+    
+    <customdiscount_adminhtml_index_form>
+        <reference name="content">
+            <block type="customdiscount/adminhtml_index_form" name="form" />
+        </reference>
+    </customdiscount_adminhtml_index_form>
+    <!--default>
+        <reference name="head">
+            <action method="addJs"><script>elgentos/productpicker.js</script></action>
+        </reference>
+    </default-->
+</layout>
