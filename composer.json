@@ -1,0 +1,27 @@
+{
+  "name": "elgentos/custom-discount",
+  "description": "Set a custom price for a customer on request (sort of quotation).",
+  "type": "magento-module",
+  "authors": [
+    {
+      "name": "peterjaap",
+      "email": "peterjaap@elgentos.nl"
+    }
+  ],
+  "extra":{
+    "map": [
+      ["app/etc/modules/Elgentos_Customdiscount.xml", "app/etc/modules/Elgentos_Customdiscount.xml"],
+
+      ["app/code/community/Elgentos/Customdiscount", "app/code/community/Elgentos/Customdiscount"],
+
+      ["app/design/adminhtml/default/default/layout/customdiscount.xml", "app/design/adminhtml/default/default/layout/customdiscount.xml"],
+
+      ["app/locale/en_US/template/email/customdiscount_offermail.html", "app/locale/en_US/template/email/customdiscount_offermail.html"],
+      ["app/locale/en_US/template/email/customdiscount_requestmail.html", "app/locale/en_US/template/email/customdiscount_requestmail.html"],
+
+      ["app/locale/nl_NL/Elgentos_Customdiscount.csv", "app/locale/nl_NL/Elgentos_Customdiscount.csv"],
+      ["app/locale/nl_NL/template/email/customdiscount_offermail.html", "app/locale/nl_NL/template/email/customdiscount_offermail.html"],
+      ["app/locale/nl_NL/template/email/customdiscount_requestmail.html", "app/locale/nl_NL/template/email/customdiscount_requestmail.html"]
+    ]
+  }
+}
